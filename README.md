@@ -29,13 +29,13 @@ RUT
 ```
 ### Datos de salida (output.csv)
 ```CSV
-nombres,direccion
-Juan Pérez,Pasaje Almirante Señoret 70 Valparaíso
-Pedro Pérez, Calle Arturo Prat 2910 San Miguel
-No encontrado!,No encontrado!
-John Doe,Calle San Gerardo 1148 Recoleta
-Benjamin Brereton,No Disponible: Territorio Extranjero
-Jane Doe,Avenida Isidora Goyenechea 2890 Las Condes
-John Smith,Calle Almirante Montt 472 Santiago
-Cosme Fulanito,Avenida Ñuble 350 Pucón
+nombres
+Juan Pérez
+Pedro Pérez
+No encontrado!
+John Doe
+Benjamin Brereton
+Jane Doe
+John Smith,
+Cosme Fulanito
 ```
