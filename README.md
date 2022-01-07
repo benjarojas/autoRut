@@ -1,6 +1,6 @@
 # rutScraper
 ## Scraper 'Quick-and-Dirty' de la página nombrerutyfirma.com
-Script escrito en Python, que permite obtener un archivo CSV incluyendo nombre, RUT y/o dirección a partir de un archivo CSV de nombres o RUT.
+Un pequeño script hecho en Python que te permite obtener un archivo CSV que contiene nombre, RUT y/o dirección de una lista de personas a partir de un archivo CSV de nombres completos o RUT.
 ## Ejemplo
 ### Datos de entrada (input.csv)
 ```CSV
