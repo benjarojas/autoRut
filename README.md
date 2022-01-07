@@ -13,7 +13,7 @@ $ git clone https://github.com/benjarojas/rutScraper
 $ cd rutScraper
 $ pip install -U -r requirements.txt
 ```
-## Ejemplo
+## Ejemplo de uso
 ```sh
 $ python3 rutScraper.py
 ```
