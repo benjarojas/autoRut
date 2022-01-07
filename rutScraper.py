@@ -1,3 +1,6 @@
+# Programado por benjarojas
+# https://github.com/benjarojas
+
 import csv
 import requests
 from time import sleep
