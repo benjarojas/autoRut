@@ -15,7 +15,7 @@ $ pip install -U -r requirements.txt
 ```
 ## Ejemplo de uso
 ```sh
-$ python3 autoRut.py input.csv output.csv rut
+$ python3 autoRut.py input.csv output.csv rut --delay 1
 ```
 ### Datos de entrada (input.csv)
 ```CSV
