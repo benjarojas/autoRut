@@ -1,7 +1,7 @@
-# rutScraper
+# autoRut.py
 ## Scraper 'Quick-and-Dirty' de la página nombrerutyfirma.com
-Un pequeño script hecho en Python que te permite obtener un archivo CSV que contiene nombre, RUT y/o dirección de una lista de personas a partir de un archivo CSV de sus nombres completos o RUT.\
-Hecho para automatizar el proceso de buscar uno por uno estos datos.
+Un pequeño script hecho en Python que permite automatizar el proceso de recolectar datos públicos.\
+Crea un archivo CSV que contiene nombre, RUT y/o dirección de una lista de personas a partir de un archivo CSV de sus nombres completos o RUT a consultar.
 ## Requisitos
 - ```Python 3.9.6 o posterior```
 - ```rut-chile```
@@ -9,17 +9,17 @@ Hecho para automatizar el proceso de buscar uno por uno estos datos.
 
 ### Instalación de Requisitos
 ```sh
-$ git clone https://github.com/benjarojas/rutScraper
-$ cd rutScraper
+$ git clone https://github.com/benjarojas/autoRut.py
+$ cd autoRut.py
 $ pip install -U -r requirements.txt
 ```
 ## Ejemplo de uso
 ```sh
-$ python3 rutScraper.py
+$ python3 autoRut.py input.csv output.csv rut
 ```
 ### Datos de entrada (input.csv)
 ```CSV
-RUT
+rut
 12345678-5
 11111111-1
 1-9
