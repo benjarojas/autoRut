@@ -37,7 +37,7 @@ Pedro Pérez,Baquedano 532 Antofagasta
 no encontrado!,no encontrado!
 John Doe,Casilla 9 Los Rios
 Benjamin Brereton,No Disponible:Territorio Extranjero Inglaterra
-John Smith,Calle Andes 4050 Ñuñoa
+John Smith,Calle Andes 4050 Quinta Normal
 Cosme Fulanito,Avenida Sargento Silva 673 Pto. Montt
 ```
 ### Ejemplo de uso con nombres
