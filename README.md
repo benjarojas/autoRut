@@ -15,7 +15,7 @@ $ pip install -U -r requirements.txt
 ```
 ## Ejemplo de uso
 ```sh
-$ python3 autoRut.py input.csv output.csv rut --delay 1
+$ python3 autoRut.py input.csv output.csv rut --addr --delay 1
 ```
 ### Datos de entrada (input.csv)
 ```CSV
@@ -30,13 +30,13 @@ rut
 ```
 ### Datos de salida (output.csv)
 ```CSV
-nombres
-Juan Pérez
-Pedro Pérez
-No encontrado!
-John Doe
-Benjamin Brereton
-Jane Doe
-John Smith
-Cosme Fulanito
+nombres,direccion
+Juan Pérez,Arauco 769 Punta Arenas
+Pedro Pérez,Baquedano 532 Antofagasta
+no encontrado!,no encontrado!
+John Doe,Casilla 9 Los Rios
+Benjamin Brereton,No Disponible:Territorio Extranjero Inglaterra
+Jane Doe,Arturo Prat 1996 San Miguel
+John Smith,Calle Andes 4050 Ñuñoa
+Cosme Fulanito,Avenida Sargento Silva 673 Pto. Montt
 ```
