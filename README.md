@@ -13,7 +13,8 @@ $ git clone https://github.com/benjarojas/autoRut.py
 $ cd autoRut.py
 $ pip install -U -r requirements.txt
 ```
-## Ejemplo de uso
+## Ejemplos de uso
+### Ejemplo de uso con RUT
 ```sh
 $ python3 autoRut.py input.csv output.csv rut --addr --delay 1
 ```
@@ -36,7 +37,32 @@ Pedro Pérez,Baquedano 532 Antofagasta
 no encontrado!,no encontrado!
 John Doe,Casilla 9 Los Rios
 Benjamin Brereton,No Disponible:Territorio Extranjero Inglaterra
-Jane Doe,Arturo Prat 1996 San Miguel
 John Smith,Calle Andes 4050 Ñuñoa
 Cosme Fulanito,Avenida Sargento Silva 673 Pto. Montt
+```
+### Ejemplo de uso con nombres
+```sh
+$ python3 autoRut.py input.csv output.csv name --delay 1
+```
+### Datos de entrada (input.csv)
+```CSV
+nombres
+Juan Pérez
+Pedro Pérez
+John Cena
+John Doe
+Benjamin Brereton
+John Smith
+Cosme Fulanito
+```
+### Datos de salida (output.csv)
+```CSV
+rut
+12345678-5
+11111111-1
+no encontrado!
+22222222-2
+33333333-3
+44444444-4
+77777777-7
 ```
