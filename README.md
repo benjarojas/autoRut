@@ -1,4 +1,4 @@
-# autoRut.py
+# autoRut
 ## Scraper 'Quick-and-Dirty' de la página nombrerutyfirma.com
 Un pequeño script hecho en Python que permite automatizar el proceso de recolección de datos públicos.\
 Crea un archivo CSV que contiene nombre, RUT y/o dirección de una lista de personas a partir de un archivo CSV de sus nombres completos o RUT a consultar.
@@ -9,8 +9,8 @@ Crea un archivo CSV que contiene nombre, RUT y/o dirección de una lista de pers
 
 ### Instalación de Dependencias
 ```sh
-$ git clone https://github.com/benjarojas/autoRut.py
-$ cd autoRut.py
+$ git clone https://github.com/benjarojas/autoRut
+$ cd autoRut
 $ pip install -U -r requirements.txt
 ```
 ## Ejemplos de uso
